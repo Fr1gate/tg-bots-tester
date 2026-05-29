@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Открой `http://localhost:3000`.
+Открой `http://localhost:47891`.
 
 ## Использование
 

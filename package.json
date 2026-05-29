@@ -4,9 +4,10 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --port 47891",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview --port 47891"
   },
   "dependencies": {
     "@nuxt/ui": "^2.18.7",

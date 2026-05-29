@@ -3,6 +3,10 @@ export default defineNuxtConfig({
 
   css: ['~/assets/scss/main.scss'],
 
+  devServer: {
+    port: 47891
+  },
+
   runtimeConfig: {
     botToken: process.env.BOT_TOKEN || '',
     chatId: process.env.CHAT_ID || ''
